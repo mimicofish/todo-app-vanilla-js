@@ -10,3 +10,4 @@ Simple todo app built with vanilla JavaScript
 - Save to localStorage
 
 ## Demo
+https://mimicofish.github.io/todo-app-with-localstorage/
