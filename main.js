@@ -63,7 +63,7 @@ function render() {
         
         btn.addEventListener('click', function() {
             todos.splice(i, 1);
-            saveTodos()
+            saveTodos();
             render();
         });
 
@@ -86,7 +86,7 @@ function render() {
             saveBtn.textContent = 'Save';
             li.appendChild(saveBtn);
 
-            funtion saveTodo(){
+            function saveTodo() {
                 const newValue = editInput.value;
                 
                 if (newValue === null || newValue.trim() === '') {
